@@ -20,7 +20,7 @@ plt.hist(sample)
 mean=sample.mean()
 std=sample.std()
 
-#now fitt for normal dist
+#now fit for normal dist
 from scipy.stats import norm
 dist= norm(mean,std)
 
